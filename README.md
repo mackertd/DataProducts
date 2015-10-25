@@ -11,4 +11,4 @@ Documentation.Rmd - Documentation tab text of the shiny app
 
 grandDams.R - R file used for the exploratory data analysis
 
-Overview.Rmd - Overview tab text in the shiny app
+overview.Rmd - Overview tab text in the shiny app
