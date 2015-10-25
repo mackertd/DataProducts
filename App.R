@@ -1,7 +1,10 @@
-install.packages("shinydashboard")# Shiny App Template
+# Shiny App Template
 
 library(shiny)
 library(leaflet)
+library(dplyr)
+library(rgdal)
+library(ggplot2)
 library(shinydashboard)
 
 # Load the Dam Data
