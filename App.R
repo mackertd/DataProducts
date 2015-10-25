@@ -1,4 +1,4 @@
-# Shiny App Template
+# Developing Data Products Shiny Project
 
 library(shiny)
 library(leaflet)
