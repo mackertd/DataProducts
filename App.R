@@ -15,12 +15,19 @@ fileData <- readOGR(dsn = "GRanD_dams_v1_1.shp", "GRanD_dams_v1_1")
 
 fileAttributes <- fileData@data
 
-# Improve the default data load
-
 # Group By Country
 
 byCountry <- group_by(fileAttributes, COUNTRY)
 
+# Summarise the data
+
+damPlotSummary <- summarise(byCountry, count = n())
+
+damSummary <- summarise(damPlotSummary, mean(count), median(count), min(count), max(count))
+
+colnames(damSummary) <- c("Mean", "Median", "Min", "Max")
+
+# Create the UI
 
 ui <- dashboardPage(
       
@@ -101,6 +108,7 @@ ui <- dashboardPage(
 
 )
 
+# Create the Server
 
 server <- function(input, output) {
       
