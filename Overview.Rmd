@@ -1,0 +1,20 @@
+---
+title: "Overview"
+author: "Donald Mackert"
+date: "October 23, 2015"
+output: html_document
+---
+
+# Overview
+
+This application presents data from the Global Reservoir and Dam Database (GRanD Database) hosted at http://www.gwsp.org/products/grand-database/global-reservoir-and-dam-grand-database-project.html.  
+
+"The recent version contains 6.862 spatially explicit records of reservoirs with their respected dams and gives information on their storage volume."
+
+This application allows the user to explore selected aspects of the GRanD Database in the form of a bar chart and a map.
+
+### Navigation
+
+Click on any of the tab titles on the left to access the content described.  Click on the documentation tab for detailed instructions.
+
+

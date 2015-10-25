@@ -1,0 +1,40 @@
+---
+title: "Documentation"
+author: "Donald Mackert"
+date: "October 24, 2015"
+output: html_document
+---
+
+# Overview Tab
+
+The overview tab provides a description of the application and the data set
+
+# Data Explorer Tab
+
+This tab allows the user to explore a portion of the GRanD Dams data set using a slider control. As the uyser manipulates the sldier control the output in the bar chart is updated as well as the displays showing the Minimum and Maximum Number of Dams and the Mean and Median of the dams displayed.
+
+## Slider Control
+
+The user selects and moves the dot on the sldier control to adjust the the Minimum (Left Dot) number of dams and the Maximum (Right Dot) number of dams.  As the user moves the dots for the minimum and maximum number of dams the four data display boxes at the top and the bar chart update with the new values.
+
+# Geospatial Display Tab
+
+The geospatial display tab initial shows a blank map and a plot dams button.  
+
+## Map Navigation
+
+The user can zoom in and out on the map using the plus (+) and minus (-) button in the upper left.  The user can also pan the map by clicking into the map with the left mouse button and dragging the map where to the desired area.
+
+## Plot Button
+
+Clicking on the plot button will provide the initial display of the dams on the map.  When the user is zoomed out at the continent level the map will show a circle with the number of dams in the region.  
+
+Hoveriing over a circle with show a polygon of the area in which the dams are located.
+
+Click on a circle to zoom into the next level or show the individual dams.  Individual dams are indicated by a blue placemark.
+
+Click on a blue placemark to shpw the dam name.
+
+# Documentation Tab
+
+Provides documetnation for the user to utilize the application
